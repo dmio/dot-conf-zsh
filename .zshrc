@@ -236,3 +236,7 @@ zstyle ':completion:*:functions' ignored-patterns '_*'
 
 zstyle -e ':completion::*:*:*:hosts' hosts 'reply=(${=${${(f)"$(cat {/etc/ssh_,~/.ssh/known_}hosts(|2)(N) /dev/null)"}%%[# ]*}//,/ })'
 
+source_if(){
+    [[ -e $1 ]] && source $1
+}
+source_if $HOME/.fzf/shell/completion.zsh
