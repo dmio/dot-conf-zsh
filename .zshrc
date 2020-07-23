@@ -107,7 +107,7 @@ export HELPDIR=/usr/local/lib/zsh/help  # directory for run-help function to fin
 export EDITOR=/usr/bin/vim
 #export LANG="ru_RU.UTF-8"
 export LANG="uk_UA.UTF-8"
-export PATH="/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:${PATH}:${HOME}/bin"
+export PATH="/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:${HOME}/.local/bin:${HOME}/bin:${PATH}"
 
 MAILCHECK=300
 DIRSTACKSIZE=20
