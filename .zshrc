@@ -43,6 +43,7 @@ alias mount-win32='mount -o codepage=866,iocharset=utf8'
 alias rm='rm -I'
 alias jsonpretty='python -m json.tool'
 #alias vim="vim --servername $(tty)"
+alias okta="flatpak run com.okta.developer.CLI"
 
 # List only directories and symbolic
 # links that point to directories
