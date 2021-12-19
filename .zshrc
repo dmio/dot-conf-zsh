@@ -111,8 +111,8 @@ export PATH="/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:${HOME}/.local/bin:${H
 
 MAILCHECK=300
 DIRSTACKSIZE=20
-HISTSIZE=1000
-SAVEHIST=1000
+HISTSIZE=2000
+SAVEHIST=5000
 HISTFILE=~/.zhistory
 
 # Watch for my friends
